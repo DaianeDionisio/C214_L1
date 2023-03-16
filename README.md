@@ -5,4 +5,3 @@ Repositório criado para armazenar as atividades realizadas no laboratório da m
 Tarefas:
 * 01 - Revisão POO
 * 02 - Gerência de Dependências (Node/NPM)
-
