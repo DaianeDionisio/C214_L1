@@ -4,9 +4,7 @@ const validaNumero = require('./validate');
 const Calculadora = {
     soma(variavel1, variavel2) {
         let validateNumber;
-        validateNumber = validate({ variavel1 }, validaNumero.ValidaNumero);
-        if (validateNumber !== undefined) return "Error";
-        validateNumber = validate({ variavel2 }, validaNumero.ValidaNumero);
+        validateNumber = validate({ variavel1, variavel2 }, validaNumero.ValidaNumero);
         if (validateNumber !== undefined) return "Error";
         
         return variavel1 + variavel2;
@@ -14,9 +12,7 @@ const Calculadora = {
 
     subtracao(variavel1, variavel2) {
         let validateNumber;
-        validateNumber = validate({ variavel1 }, validaNumero.ValidaNumero);
-        if (validateNumber !== undefined) return "Error";
-        validateNumber = validate({ variavel2 }, validaNumero.ValidaNumero);
+        validateNumber = validate({ variavel1, variavel2 }, validaNumero.ValidaNumero);
         if (validateNumber !== undefined) return "Error";
 
         return variavel1 - variavel2;
@@ -24,9 +20,7 @@ const Calculadora = {
 
     multipliacao(variavel1, variavel2) {
         let validateNumber;
-        validateNumber = validate({ variavel1 }, validaNumero.ValidaNumero);
-        if (validateNumber !== undefined) return "Error";
-        validateNumber = validate({ variavel2 }, validaNumero.ValidaNumero);
+        validateNumber = validate({ variavel1, variavel2 }, validaNumero.ValidaNumero);
         if (validateNumber !== undefined) return "Error";
 
         return variavel1 * variavel2;
@@ -34,18 +28,13 @@ const Calculadora = {
 
     divisao(variavel1, variavel2) {
         let validateNumber;
-        validateNumber = validate({ variavel1 }, validaNumero.ValidaNumero);
+        validateNumber = validate({ variavel1, variavel2 }, validaNumero.ValidaNumero);
         if (validateNumber !== undefined) return "Error";
-        validateNumber = validate({ variavel2 }, validaNumero.ValidaNumero);
-        if (validateNumber !== undefined) return "Error";
-        return variavel1 / variavel2;
     },
 
     exponenciacao(variavel1, variavel2) {
         let validateNumber;
-        validateNumber = validate({ variavel1 }, validaNumero.ValidaNumero);
-        if (validateNumber !== undefined) return "Error";
-        validateNumber = validate({ variavel2 }, validaNumero.ValidaNumero);
+        validateNumber = validate({ variavel1, variavel2 }, validaNumero.ValidaNumero);
         if (validateNumber !== undefined) return "Error";
 
         return variavel1 ** variavel2;
