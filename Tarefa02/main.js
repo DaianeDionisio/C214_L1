@@ -1,7 +1,7 @@
 const Calculadora = require('./calculadora');
 
-let variavel1 = 2;
-let variavel2 = 3;
+let variavel1 = 5;
+let variavel2 = 7;
 
 let somaErro = Calculadora.soma(variavel1,true);
 let somaOk = Calculadora.soma(variavel1, variavel2); 
