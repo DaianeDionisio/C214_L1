@@ -21,6 +21,7 @@
 
 ## Revisao POO
 
+Tarefa 01:
 Para revisar os conteitos de Programação Orientada a Objetos, foi implementado um código com as classes, métodos e relacionamentos impostos no diagrama abaixo:
 
 <h4 align="center">
@@ -28,7 +29,7 @@ Para revisar os conteitos de Programação Orientada a Objetos, foi implementado
 
 ## Gerencia de Dependencias
 
-Foi realizado o desenvolvimento de uma calculadora que realiza 5 funções matemáticas: 
+Tarefa 02: Foi realizado o desenvolvimento de uma calculadora que realiza 5 funções matemáticas: 
 * Soma 
 * Subtração
 * Multiplicação
