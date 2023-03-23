@@ -5,13 +5,18 @@
 </h1>
 
 <h4 align="center">Este repositório foi criado a fim de armazenar as atividades realizadas no laboratório da matéria de Engenharia de Software.
-<img src="https://img.icons8.com/external-avoca-kerismaker/64/null/external-Programing-web-development-avoca-kerismaker.png"/> </h4>
+</h4>
+
+<h4 align="center"><img src="https://img.icons8.com/external-avoca-kerismaker/64/null/external-Programing-web-development-avoca-kerismaker.png"/> 
+</h4>
+
+
 
 <p align="center">
   <a href="#revisao-poo">Revisao POO</a> •
   <a     href="#gerencia-de-dependencias">Gerencia de Dependencias</a> •
   <a     href="#especificacoes">Especificacoes</a> •
-   <a     href="#contribuidores">Contribuidores</a> 
+   <a     href="#colaboradores">Colaboradores</a> 
 </p>
 
 ## Revisao POO
@@ -42,7 +47,7 @@ Todas as atividades são desenvolvidas utilizando a linguagem JavaScript.
 <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-javascript-mobile-app-development-flaticons-lineal-color-flat-icons-3.png"/>
 </h4>
 
-## Contribuidores
+## Colaboradores
 
 
 <h4 align="center">
